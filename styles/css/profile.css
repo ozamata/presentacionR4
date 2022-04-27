@@ -23,6 +23,7 @@
   width: 100%;
   height: 6rem;
   background-image: linear-gradient(transparent, var(--primary-theme-color));
+  
 }
 .profile__container {
   display: grid;
@@ -30,6 +31,8 @@
   max-width: var(--max-width-container);
   margin: auto;
   padding: var(--padding-container);
+  background-color: rgb(66, 64, 64);
+
 }
 @media (min-width: 854px) {
   .profile__container {

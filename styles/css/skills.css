@@ -14,6 +14,8 @@
 .skills__title {
   font-size: 2rem;
   text-shadow: 0 0 0.25rem var(--primary-highlight-color);
+  text-shadow: 0 0 1.25rem var(--primary-highlight-color);
+  text-shadow: 0 0 2.25rem var(--primary-highlight-color);
   margin: 0;
 }
 .skills__skills-list {
@@ -28,10 +30,10 @@
   padding: 0;
 }
 .skills__skills-item {
-  background-color: var(--secondary-theme-color);
-  border-radius: 1rem;
+  background-color: var(--primary-highlight-color);
+  border-radius: 0rem;
   font-weight: 700;
-  padding: 0.5em 1em;
+  padding: 0.9em 1em;
   box-shadow: 0 0 0 0.125rem var(--primary-shadow-color), 0 0 0 0.25rem var(--primary-shadow-color);
   transition: var(--all-transitions);
 }
